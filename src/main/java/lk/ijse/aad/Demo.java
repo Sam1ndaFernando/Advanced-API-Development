@@ -10,7 +10,7 @@ import java.io.IOException;
 @WebServlet(value = "/health")
 public class Demo extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) {
-        System.out.println("Nishan");
+        System.out.println("Saminda");
     }
 
     }
