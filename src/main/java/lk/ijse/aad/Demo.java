@@ -7,10 +7,14 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-@WebServlet(value = "/health")
+//@WebServlet(value = "/health")
 public class Demo extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) {
         System.out.println("Saminda");
     }
-
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("dfvs");
     }
+
+
+}
